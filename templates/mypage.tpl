@@ -154,8 +154,22 @@
             .modal-content {
                 width: 90%;
             }
+            .table-container {
+                overflow-x: auto;
+            }
+            h1 {
+                width: 50%;
+            }
+            #closeButton {
+                font-size: 18px;
+            }
+            #clock {
+                margin-top: 100px;
+            }
+            .button-container {
+                margin-top: 50px;
+            }
         }
-
     </style>
 </head>
 <body>
@@ -166,8 +180,7 @@
 
 <div id="clock"></div>
 
-<br>
-<br>
+<br><br>
 
 <div class="button-container">
     <a id="entraButton" onclick="openModal('entrata')" <?php if ($entrata) echo 'class="disabled"'; ?>>Entra</a>
